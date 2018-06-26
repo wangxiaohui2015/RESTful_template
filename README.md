@@ -20,6 +20,7 @@ mvn clean package
 Copy file RESTful_template-1.0.0-RELEASE.war to \<Tomcat_Dir\>\webapps\
 
 ### Testing
+~~~
 1. Query one employee:
 Method: GET
 URL: http://localhost:8080/restful_template/employee/0
@@ -61,3 +62,4 @@ URL: http://localhost:8080/restful_template/employee/0
 6. Delete all employees:
 Method: DELETE
 URL: http://localhost:8080/restful_template/employee/
+~~~
